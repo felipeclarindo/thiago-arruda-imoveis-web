@@ -14,11 +14,11 @@ export default function HomeScreen() {
       <section className="relative overflow-hidden bg-slate-950">
         {/* Background */}
         <Image
-          src="/images/banner-home.jpg"
+          src="/images/thiago-arruda.png"
           alt="Imóveis"
           fill
           priority
-          className="object-cover opacity-20"
+          className="object-cover opacity-60"
         />
 
         <div className="absolute inset-0 bg-linear-to-r from-slate-950 via-slate-950/90 to-slate-900/50" />
