@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sobre | Thiago Arruda",
+  title: "Imovéis | Thiago Arruda",
   description:
     "Conquiste sua casa própria com a ajuda de um consultor especializado em financiamento imobiliário. Obtenha orientação personalizada, estratégias eficazes e suporte completo para realizar o sonho da casa própria.",
   icons: {
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AboutLayout({
+export default function PropertiesLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

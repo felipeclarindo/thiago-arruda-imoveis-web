@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Thiago Arruda - Consultor",
+  title: "Thiago Arruda | Consultor",
   description:
     "Conquiste sua casa própria com a ajuda de um consultor especializado em financiamento imobiliário.",
   icons: {
@@ -35,9 +35,7 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-slate-950 text-white">
         <Header />
-
         <main className="flex-1 pt-24">{children}</main>
-
         <Footer />
       </body>
     </html>

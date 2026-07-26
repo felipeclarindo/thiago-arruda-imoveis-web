@@ -2,19 +2,13 @@
 
 import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { navigationItems } from "@/mock/layout";
 
 export default function Footer() {
-  const quickLinks = [
-    { name: "Início", href: "/" },
-    { name: "Imóveis", href: "/imoveis" },
-    { name: "Sobre", href: "/about" },
-    { name: "Contato", href: "/contact" },
-  ];
-
   return (
     <footer className="border-t border-white/10 bg-slate-950 text-gray-300">
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
-        {/* Marca */}
+        {/* Brand */}
         <div>
           <h2 className="text-2xl font-bold text-white">Thiago Arruda</h2>
 
@@ -29,7 +23,7 @@ export default function Footer() {
           <h3 className="mb-5 font-semibold text-white">Navegação</h3>
 
           <ul className="space-y-3">
-            {quickLinks.map((item) => (
+            {navigationItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}

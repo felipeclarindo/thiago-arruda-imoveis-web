@@ -1,7 +1,5 @@
+import ContactScreen from "@/screens/contact/ContactScreen";
+
 export default function ContactPage() {
-  return (
-    <main>
-      <h1>Contact Page</h1>
-    </main>
-  );
+  return <ContactScreen />;
 }

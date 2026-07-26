@@ -1,16 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Phone, MessageCircle } from "lucide-react";
+import { navigationItems } from "@/mock/layout";
 
 export default function Header() {
-  const menuItems = [
-    { name: "Início", href: "/" },
-    { name: "Imóveis", href: "/imoveis" },
-    { name: "Sobre", href: "/sobre" },
-    { name: "Depoimentos", href: "/depoimentos" },
-    { name: "Contato", href: "/contato" },
-  ];
-
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-slate-950/85 backdrop-blur-xl">
       <div className="mx-auto flex h-24 max-w-7xl items-center justify-between px-6">
@@ -40,7 +33,7 @@ export default function Header() {
         {/* Menu */}
         <nav className="hidden lg:block">
           <ul className="flex items-center gap-10">
-            {menuItems.map((item) => (
+            {navigationItems.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
@@ -65,13 +58,12 @@ export default function Header() {
             </div>
           </div>
 
+          {/* Botão */}
           <Link
-            href="https://wa.me/558591284083"
-            target="_blank"
-            className="flex items-center gap-2 rounded-xl bg-emerald-500 px-5 py-3 font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-emerald-400 hover:shadow-lg hover:shadow-emerald-500/30"
+            href="/contact"
+            className="rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-blue-500 hover:shadow-lg hover:shadow-blue-500/30"
           >
-            <MessageCircle size={20} />
-            Falar no WhatsApp
+            Solicitar Orçamento
           </Link>
         </div>
       </div>

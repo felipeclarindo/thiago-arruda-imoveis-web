@@ -1,14 +1,8 @@
+import { ArrowRight, BadgeCheck, Building2, Home, TrendingUp } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import {
-  ArrowRight,
-  BadgeCheck,
-  Building2,
-  Home,
-  TrendingUp,
-} from "lucide-react";
 
-export default function HomeScreen() {
+export default function SalePropertyScreen() {
   return (
     <main>
       <section className="relative overflow-hidden bg-slate-950">
@@ -54,7 +48,7 @@ export default function HomeScreen() {
                 </Link>
 
                 <Link
-                  href="#imoveis"
+                  href="/properties"
                   className="rounded-xl border border-white/20 px-8 py-4 font-semibold text-white transition hover:border-blue-500 hover:bg-white/5"
                 >
                   Ver imóveis
