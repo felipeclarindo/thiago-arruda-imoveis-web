@@ -1,4 +1,4 @@
-import { NavigationItemProps } from "@/components/types/layout/LayoutProps";
+import { NavigationItemProps } from "@/types/layout/LayoutProps";
 
 export const navigationItems: NavigationItemProps[] = [
   { name: "Início", href: "/" },

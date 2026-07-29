@@ -1,4 +1,4 @@
-import { FeedbackProps } from "@/types/FeedbacksProps";
+import { FeedbackProps } from "@/types/pages/FeedbacksProps";
 
 export const feedbacks : FeedbackProps[] = [
   {

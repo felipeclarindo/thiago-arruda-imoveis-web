@@ -1,4 +1,4 @@
-import { PropertyProps } from "@/types/PropertiesProps";
+import { PropertyProps } from "@/types/pages/PropertiesProps";
 
 export const properties: PropertyProps[] = [
   {
