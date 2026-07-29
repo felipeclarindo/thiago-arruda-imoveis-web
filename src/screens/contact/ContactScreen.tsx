@@ -53,7 +53,7 @@ export default function ContactScreen() {
                 <Phone className="text-blue-400" />
                 <div>
                   <p className="text-sm text-gray-400">Telefone</p>
-                  <p className="font-semibold">(11) 99999-9999</p>
+                  <p className="font-semibold">(85) 99128-4083</p>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function ContactScreen() {
                 <Mail className="text-blue-400" />
                 <div>
                   <p className="text-sm text-gray-400">E-mail</p>
-                  <p className="font-semibold">contato@thiagoarruda.com.br</p>
+                  <p className="font-semibold">seu-email-aqui@gmail.com</p>
                 </div>
               </div>
 
@@ -69,11 +69,10 @@ export default function ContactScreen() {
                 <MapPin className="text-blue-400" />
                 <div>
                   <p className="text-sm text-gray-400">Atendimento</p>
-                  <p className="font-semibold">São Paulo - SP</p>
+                  <p className="font-semibold">Fortaleza - CE</p>
                 </div>
               </div>
             </div>
-
           </div>
 
           {/* Formulário */}

@@ -9,7 +9,7 @@ import {
   Square,
   MessageCircle,
 } from "lucide-react";
-import { properties } from "@/mock/properties";
+import { properties } from "@/mock/properties/propertiesData";
 
 export default function PropertiesScreen() {
   return (

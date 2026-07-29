@@ -11,7 +11,7 @@ import {
   Share2,
 } from "lucide-react";
 import { notFound } from "next/navigation";
-import { properties } from "@/mock/properties";
+import { properties } from "@/mock/properties/propertiesData";
 
 interface PropertyScreenProps {
   id: number;
