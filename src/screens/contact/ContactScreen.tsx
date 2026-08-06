@@ -61,7 +61,7 @@ export default function ContactScreen() {
                 <Mail className="text-blue-400" />
                 <div>
                   <p className="text-sm text-gray-400">E-mail</p>
-                  <p className="font-semibold">seu-email-aqui@gmail.com</p>
+                  <p className="font-semibold">thiagoarruda09@alu.ufc.br</p>
                 </div>
               </div>
 

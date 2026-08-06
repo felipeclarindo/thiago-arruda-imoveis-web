@@ -42,7 +42,7 @@ export default function Header() {
         {/* Desktop */}
         <div className="hidden items-center gap-10 lg:flex">
           <nav>
-            <ul className="flex items-center gap-8">
+            <ul className="flex items-center gap-8 mr-25">
               {navigationItems.map((item) => (
                 <li key={item.href}>
                   <Link

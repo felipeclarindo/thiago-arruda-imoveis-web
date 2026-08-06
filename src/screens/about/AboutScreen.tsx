@@ -208,7 +208,7 @@ export default function AboutScreen() {
           </p>
 
           <Link
-            href="https://wa.me/5511999999999"
+            href="https://wa.me/558591284083"
             target="_blank"
             className="mt-10 inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 font-semibold text-slate-900 transition hover:scale-105"
           >

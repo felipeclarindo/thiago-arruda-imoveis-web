@@ -88,10 +88,10 @@ export default function HomeScreen() {
                 </Link>
 
                 <Link
-                  href="/properties"
+                  href="/about"
                   className="rounded-xl border border-white/10 bg-white/5 px-8 py-5 text-lg font-semibold transition hover:border-blue-500 hover:bg-white/10"
                 >
-                  Ver imóveis
+                  Saiba mais
                 </Link>
               </div>
 
@@ -230,7 +230,7 @@ export default function HomeScreen() {
         </div>
       </section>
       {/* COMO FUNCIONA */}
-      <section className="relative py-28">
+      <section className="relative py-28 border-y border-white/10 bg-slate-900/40">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <span className="rounded-full border border-blue-500/20 bg-blue-500/10 px-5 py-2 text-sm font-semibold text-blue-400">
@@ -305,7 +305,7 @@ export default function HomeScreen() {
 
       {/* DIFERENCIAIS */}
 
-      <section className="border-y border-white/10 bg-slate-900/40 py-28">
+      <section className="py-28">
         <div className="mx-auto max-w-7xl px-6">
           <div className="text-center">
             <span className="rounded-full bg-emerald-500/10 px-5 py-2 text-sm font-semibold text-emerald-400">
@@ -368,7 +368,7 @@ export default function HomeScreen() {
       </section>
 
       {/* IMÓVEIS */}
-
+      {/* 
       <section className="py-28">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
@@ -426,11 +426,11 @@ export default function HomeScreen() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ===========================
-    DEPOIMENTOS
-=========================== */}
+          DEPOIMENTOS
+      =========================== */}
 
       <section className="border-y border-white/10 bg-slate-900/40 py-28">
         <div className="mx-auto max-w-7xl px-6">
@@ -501,8 +501,8 @@ export default function HomeScreen() {
       </section>
 
       {/* ===========================
-    FAQ
-=========================== */}
+          FAQ
+      =========================== */}
 
       <section className="py-28">
         <div className="mx-auto max-w-5xl px-6">

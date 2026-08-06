@@ -111,15 +111,20 @@ export default function FeedbacksScreen() {
               Quer ser o próximo cliente satisfeito?
             </h2>
 
-            <p className="mx-auto mt-6 max-w-2xl text-lg text-blue-100">
+            <p className="mx-auto mt-6 mb-14 max-w-2xl text-lg text-blue-100">
               Entre em contato agora mesmo e descubra como posso ajudar você a
               comprar, vender ou financiar seu imóvel com segurança e
               tranquilidade.
             </p>
 
-            <button className="mt-10 rounded-xl bg-white px-10 py-4 text-lg font-semibold text-slate-900 transition hover:scale-105">
+            <a
+              href="https://wa.me/558591284083"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-xl bg-white px-10 py-6 text-lg font-semibold text-slate-900 transition hover:scale-105 "
+            >
               Falar com Thiago Arruda
-            </button>
+            </a>
           </div>
         </section>
       </section>

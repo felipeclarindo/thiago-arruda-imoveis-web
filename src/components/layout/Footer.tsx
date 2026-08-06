@@ -48,7 +48,7 @@ export default function Footer() {
 
             <li className="flex items-center gap-3">
               <Mail size={18} />
-              contato@thiagoarruda.com.br
+              thiagoarruda09@alu.ufc.br
             </li>
 
             <li className="flex items-center gap-3">
@@ -92,8 +92,17 @@ export default function Footer() {
             © {new Date().getFullYear()} Thiago Arruda. Todos os direitos
             reservados.
           </p>
-
-          <p>Desenvolvido para conectar pessoas aos melhores imóveis.</p>
+          <div>
+            <p>Desenvolvido por: </p>{" "}
+            <span className="color-blue">
+              <Link
+                href="https://www.instagram.com/fcsolucoesdigitais"
+                target="_blank"
+              >
+                FC Soluções Digitais
+              </Link>
+            </span>
+          </div>
         </div>
       </div>
     </footer>
