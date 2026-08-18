@@ -31,7 +31,7 @@ export default function HomeScreen() {
     "Simulação personalizada",
     "Especialista em financiamento",
     "Suporte documental completo",
-    "Atendimento humanizado",
+    "Atendimento único e personalizado",
     "As melhores oportunidades",
   ];
 
@@ -121,7 +121,7 @@ export default function HomeScreen() {
             >
               {/* Glow */}
 
-              <div className="absolute h-[420px] w-[420px] rounded-full bg-blue-600/20 blur-[130px]" />
+              <div className="absolute h-105 w-105 rounded-full bg-blue-600/20 blur-[130px]" />
 
               {/* Card */}
 
@@ -182,7 +182,7 @@ export default function HomeScreen() {
 
       <section ref={ref} className="pb-28">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-xl">
+          <div className="rounded-4xl border border-white/10 bg-white/5 backdrop-blur-xl">
             <div className="grid divide-y divide-white/10 md:grid-cols-4 md:divide-x md:divide-y-0">
               <div className="p-10 text-center">
                 <Building2 className="mx-auto text-blue-400" size={42} />
